@@ -9,7 +9,7 @@ export function displayAboutPage(req, res, next){
 }
 
 export function displayContactsPage(req, res, next){
-    res.render('index',{title: 'Contacts', page: 'contact' });
+    res.render('index',{title: 'Contact', page: 'contact' });
 }
 
 export function displayProjectsPage(req, res, next){
